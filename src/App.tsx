@@ -109,12 +109,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         {/* Public Route */}
-        <Route path="/" element={<LandingPage data={funnelData} onLeadSubmit={handleLeadSubmit} />} />
-        <Route 
-          path="/modelfitlab-v1" 
-          element={<LandingPage data={funnelData} onLeadSubmit={handleLeadSubmit} />} 
-        />
-
+        <Route path="/" element={<LandingPage data={funnelData} onLeadSubmit={handleLeadSubmit} />} />      
         {/* Admin Routes */}
         <Route path="/admin" element={<Navigate to="/admin/builder" replace />} />
         <Route 
