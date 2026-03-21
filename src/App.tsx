@@ -135,7 +135,7 @@ export default function App() {
         />
         
         {/* Fallback */}
-        <Route path="*" element={<Navigate to="/modelfitlab-v1" replace />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );
