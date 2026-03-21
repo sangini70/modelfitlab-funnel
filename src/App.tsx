@@ -59,7 +59,7 @@ function AdminLayout({ children }: { children: React.ReactNode }) {
               대시보드
             </Link>
             <a
-              href="/modelfitlab-v1"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 text-gray-600 hover:bg-gray-100 transition-colors ml-4 border border-gray-200"
@@ -109,7 +109,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         {/* Public Route */}
-        <Route path="/" element={<Navigate to="/modelfitlab-v1" replace />} />
+        <Route path="/" element={<LandingPage data={funnelData} onLeadSubmit={handleLeadSubmit} />} />
         <Route 
           path="/modelfitlab-v1" 
           element={<LandingPage data={funnelData} onLeadSubmit={handleLeadSubmit} />} 
