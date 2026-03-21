@@ -77,7 +77,7 @@ export default function LandingPage({ data, onLeadSubmit }: LandingPageProps) {
                 onClick={() => setIsModalOpen(true)}
                 className="inline-flex justify-center items-center gap-2 px-8 py-5 text-xl font-bold text-white bg-indigo-600 rounded-2xl hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-200 hover:shadow-indigo-300 hover:-translate-y-1 w-full sm:w-auto"
               >
-                지금 무료 결과 받아보기 (v2)
+                39,500원으로 샘플 시작하기
                 <ArrowRight className="w-6 h-6" />
               </button>
               <p className="text-sm text-gray-500 font-medium text-center sm:text-left ml-2">
