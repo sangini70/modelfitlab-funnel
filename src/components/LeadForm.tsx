@@ -257,11 +257,11 @@ export default function LeadForm({ funnelId, ctaText, onSubmit, onClose }: LeadF
                     </span>
                     <span className="text-xs text-gray-600 mt-1 leading-relaxed">
                       입력하신 정보는 Before/After 결과 전달 및 상담 안내를 위해서만 사용됩니다.
-수집된 개인정보는 관계 법령에 따라 안전하게 보관되며, 수집일로부터 30일 후 자동 삭제됩니다.
-제3자에게 제공되거나 다른 용도로 사용되지 않습니다. 
+수집된 개인정보는 관계 법령에 따라 안전하게 보관되며, 수집일로부터 30일 이내 삭제됩니다.
+제3자에게 제공되거나 다른 용도로 사용되지 않습니다.
                     </span>
                     <span className="text-[11px] text-gray-400 mt-1">
-                      ※ 입력하신 개인정보는 30일 후 자동 삭제됩니다.
+                      ※ 입력하신 개인정보는 30일 후 삭제됩니다.
                     </span>
                   </div>
                 </label>
